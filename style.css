@@ -4,28 +4,29 @@ body{
     padding: 0;
 }
 
-h1{font-size: 50px;}
+h1{font-size: 48px;}
 
-header{
+.header-area{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     display: flex;
+    margin-bottom: 150px;
 }
 .wlc-txt-c{
     color: #FFC221;
 }
 
-.heade-bg-area{
-    width: 50%;
+.hf-wd{
+    width: 40%;
     margin-left: 5%;
     padding-left: 2%;
 }
 
-.heade-bg-area img{
+.hf-wd img{
     width: 85%;
 }
 
-button {
+.btn {
     padding: 10px 30px;
     background-image: linear-gradient(89deg, #ff9772, #ff7052);
     border: none;
@@ -33,9 +34,26 @@ button {
     font-size: 16px;
     font-weight: 600;
     color: white;
+    text-decoration: none;
 }
 
-button:hover {
+.btn:hover {
     background: #30aeeb;
     transition: auto;
 }
+
+
+/*-------------------------end-header-area--------------------------------------*/
+
+
+
+.drim-area{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+/*-------------------------end drim area--------------------------------------*/
