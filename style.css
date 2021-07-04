@@ -5,12 +5,15 @@ body{
 }
 
 h1{font-size: 48px;}
+h2{font-size: 40px;}
 
+.flexible{
+    display: flex;
+    margin-bottom: 150px;
+}
 .header-area{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    display: flex;
-    margin-bottom: 150px;
 }
 .wlc-txt-c{
     color: #FFC221;
@@ -56,4 +59,35 @@ h1{font-size: 48px;}
 
 
 
-/*-------------------------end drim area--------------------------------------*/
+/*-------------------------end drim areas--------------------------------------*/
+
+
+.experiances-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experiance-item {
+    box-shadow: 10px 15px 20px #a9a497;
+    height: 400px;
+    border-radius: 10px;
+}
+
+#exp-itm1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(#fa6f5b, #da5033);
+    border-image-slice: 1;
+}
+
+#exp-itm2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(#0709ff, #00f4fb);
+    border-image-slice: 1;
+}
+
+/*-------------------------end experiances-area--------------------------------------*/
+
+footer p{
+    text-align: center;
+}
